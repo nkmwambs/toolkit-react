@@ -7,9 +7,9 @@ export const IncomeExpense = () => {
 
     const amounts = transactions.map(transaction => transaction.amount)
 
-    const income = amounts.filter(amount => amount > 0).reduce((total, amount)=>total+amount,0)
+    const income = amounts.filter(amount => amount > 0).reduce((total, amount)=>total+parseInt(amount),0)
 
-    const expense = amounts.filter(amount => amount < 0).reduce((total, amount)=>total+amount,0)
+    const expense = amounts.filter(amount => amount < 0).reduce((total, amount)=>total+parseInt(amount),0)
 
     return (
     <div className="totals">

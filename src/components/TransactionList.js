@@ -8,9 +8,10 @@ const TransactionList = () => {
 
     return (
         <div className="transaction_items">
+            Transaction List
             <ul>
                 {
-                    transactions.map(transaction => <Transaction transaction={transaction}/>)
+                    transactions.map((transaction, index) => <Transaction key={index} transaction={transaction}/>)
                 }
             </ul>
         </div>

@@ -7,7 +7,7 @@ const Balance = () => {
 
     const amounts = transactions.map(transaction => transaction.amount)
 
-    const balance = amounts.reduce((total, amount) => total + amount)
+    const balance = amounts.reduce((total, amount) => total + parseInt(amount),0)
 
 
     return (
