@@ -45,3 +45,55 @@ margin-bottom: 20px;
   position: absolute;
   left: 350px;
 }
+
+.transaction_items{
+  border-width: 2px;
+  border-color: black;
+  border-style: solid;
+  width: 450px;
+  position: relative;
+  left:100px;
+}
+
+.transaction_item{
+  border-bottom-width: 1px;
+  border-bottom-color: black;
+  border-bottom-style: solid;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin-right: 20px;
+}
+
+.transaction_detail{
+margin-right: 105px;
+margin-left: 50px;
+}
+
+
+ul{
+  list-style-type: none;
+}
+
+.add_transaction{
+  margin-top: 20px;
+  border-width: 2px;
+  border-color: black;
+  border-style: solid;
+  width: 410px;
+  position: relative;
+  left: 100px;
+  padding: 20px;
+}
+
+.add_description_container{
+  margin-bottom: 20px;
+}
+
+.add_transaction_label{
+  width: 100px;
+  margin-right: 10px;
+}
+
+.add_transaction_button_container{
+  margin-top: 20px;
+}
